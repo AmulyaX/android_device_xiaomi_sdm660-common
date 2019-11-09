@@ -5533,6 +5533,9 @@ case "$target" in
      ;;
 esac
 
+# Fix the persist sensors context
+chcon -R u:object_r:persist_sensors_file:s0 /mnt/vendor/persist/sensors
+
 # Install AdrenoTest.apk if not already installed
 if [ -f /data/prebuilt/AdrenoTest.apk ]; then
     if [ ! -d /data/data/com.qualcomm.adrenotest ]; then
