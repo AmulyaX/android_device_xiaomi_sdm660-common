@@ -166,8 +166,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libtinyxml \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.1_vendor
+    vendor.display.config@1.9 \
+    vendor.display.config@1.9_vendor
 
 # Doze
 PRODUCT_PACKAGES += \
