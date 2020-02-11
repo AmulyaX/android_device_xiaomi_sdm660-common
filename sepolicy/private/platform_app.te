@@ -1,0 +1,7 @@
+# Allow platform app to get camera_prop
+get_prop(platform_app, camera_prop)
+
+# Allow platform app to get adsprpc_prop
+get_prop(platform_app, adsprpc_prop)
+
+allow platform_app adsprpc_prop:dir { search };
